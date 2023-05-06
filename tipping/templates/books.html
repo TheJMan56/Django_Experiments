@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Book Adder</title>
+</head>
+<body>
+
+    <form action="addBook" method="GET">
+        <p>ID: <input type="number" name="bookID"></p>
+        <p>Title: <input type="text" name="title"></p>
+        <p>Author: <input type="text" name="author"></p>
+        <p>Publisher: <input type="text" name="publisher"></p>
+        <p>Description: <input type="text" name="description"></p>
+        <p><input type="submit" name="BookAdder"></p>
+    </form>
+
+    <form action="addBookToDatabase" method="GET">
+        <p>ID: <input type="number" name="bookID"></p>
+        <p>Title: <input type="text" name="title"></p>
+        <p>Author: <input type="text" name="author"></p>
+        <p>Publisher: <input type="text" name="publisher"></p>
+        <p>Description: <input type="text" name="description"></p>
+        <p><input type="submit" name="BookDatabaseAdder"></p>
+    </form>
+
+    <form action="outputBook" method="GET">
+        <p><input type="submit" name="OutputBook"></p>
+    </form>
+</body>
+</html>
